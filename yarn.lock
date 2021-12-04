@@ -1828,16 +1828,6 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@goosedefi/goose-uikit":
-  version "0.10.2"
-  resolved "https://codeload.github.com/goosedefi/goose-uikit/tar.gz/068e017bb0f927c566a43596fb555a5818e13154"
-  dependencies:
-    "@types/lodash" "^4.14.162"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
-
 "@pedrouid/iso-crypto@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@pedrouid/iso-crypto/-/iso-crypto-1.0.0.tgz#cf06b40ef3da3d7ca7363bd7a521ed59fa2fd13d"
@@ -2645,6 +2635,17 @@
   dependencies:
     "@typescript-eslint/types" "4.12.0"
     eslint-visitor-keys "^2.0.0"
+
+"@wakandaswap-libs/uikit@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@wakandaswap-libs/uikit/-/uikit-0.1.1.tgz#b0f9c228a1ef3578345d8ff3e5e40beb8795c6dc"
+  integrity sha512-TvQcdRh0l5/v9b13K9olTSaENxV1uoy9twhdyZsAdjADFnGP/GprZudEBnfsXJgW9a2vTeY3r57m0uYqIRsIIQ==
+  dependencies:
+    "@types/lodash" "^4.14.162"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
 
 "@walletconnect/client@^1.3.3":
   version "1.3.3"
