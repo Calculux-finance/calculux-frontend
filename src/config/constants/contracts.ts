@@ -1,6 +1,6 @@
 export default {
   cake: {
-    56: '0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
+    56: '0x5344c20fd242545f31723689662ac12b9556fc3d',
     97: '',
   },
   masterChef: {
@@ -12,12 +12,12 @@ export default {
     97: '',
   },
   lottery: {
-    56: '',
-    97: '',
+    56: '0xd52cC6600a6eb8129D49316FB3b74BF19C5e4D42',
+    97: '0xd52cC6600a6eb8129D49316FB3b74BF19C5e4D42',
   },
   lotteryNFT: {
-    56: '',
-    97: '',
+    56: '0x66Cb77cC0dAE834BC4117f767fE68c82acbEC2b2',
+    97: '0x66Cb77cC0dAE834BC4117f767fE68c82acbEC2b2',
   },
   mulltiCall: {
     56: '0x1ee38d535d541c55c9dae27b12edf090c608e6fb',

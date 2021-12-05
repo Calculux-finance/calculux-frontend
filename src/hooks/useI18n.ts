@@ -6,6 +6,7 @@ const useI18n = () => {
   const { translations } = useContext(TranslationsContext)
 
   return (translationId: number, fallback: string) => {
+    return fallback
     if (translations[0] === 'error') {
       return fallback
     }

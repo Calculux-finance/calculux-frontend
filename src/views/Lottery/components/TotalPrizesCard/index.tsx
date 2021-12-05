@@ -71,14 +71,14 @@ const TotalPrizesCard = () => {
         )}
         <CardHeading>
           <Left>
-            <IconWrapper>
+            {/* <IconWrapper>
               <PancakeRoundIcon />
-            </IconWrapper>
+            </IconWrapper> */}
             <PrizeCountWrapper>
               <Text fontSize="14px" color="textSubtle">
                 {TranslateString(999, 'Total Pot:')}
               </Text>
-              <Heading size="lg">{lotteryPrizeWithCommaSeparators} CAKE</Heading>
+              <Heading size="lg">{lotteryPrizeWithCommaSeparators} WAKANDA</Heading>
             </PrizeCountWrapper>
           </Left>
           <Right>
