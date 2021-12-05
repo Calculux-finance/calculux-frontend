@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://localhost:3001/',
+        href: 'https://exchange.wakandaswap.net/',
       },
       {
         label: 'Liquidity',
-        href: 'http://localhost:3001/#/pool',
+        href: 'https://exchange.wakandaswap.net/#/pool',
       },
     ],
   },
@@ -24,11 +24,6 @@ const config: MenuEntry[] = [
   //   label: 'Farms',
   //   icon: 'FarmIcon',
   //   href: '/farms',
-  // },
-  // {
-  //   label: 'Nests',
-  //   icon: 'PoolIcon',
-  //   href: '/nests',
   // },
   // {
   //   label: 'Pools',
@@ -40,62 +35,67 @@ const config: MenuEntry[] = [
     icon: 'TicketIcon',
     href: '/lottery',
   },
+  {
+    label: 'IWO',
+    icon: 'PoolIcon',
+    href: '/iwo',
+  },
   // {
   //   label: 'NFT',
   //   icon: 'NftIcon',
   //   href: '/nft',
   // },
-  // {
-  //   label: 'Info',
-  //   icon: 'InfoIcon',
-  //   items: [
-  //     {
-  //       label: 'PancakeSwap',
-  //       href: 'https://pancakeswap.info/token/0x5344c20fd242545f31723689662ac12b9556fc3d',
-  //     },
-  //     {
-  //       label: 'CoinGecko',
-  //       href: 'https://www.coingecko.com/en/coins/wakanda-inu/',
-  //     },
-  //     {
-  //       label: 'CoinMarketCap',
-  //       href: 'https://coinmarketcap.com/currencies/wakanda-inu/',
-  //     },
-  //     {
-  //       label: 'AstroTools',
-  //       href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
-  //     },
-  //   ],
-  // },
-  // {
-  //   label: 'More',
-  //   icon: 'MoreIcon',
-  //   items: [
-  //     {
-  //       label: 'Github',
-  //       href: 'https://github.com/wakandaswap/',
-  //     },
-  //     // {
-  //     //   label: 'Docs',
-  //     //   href: 'https://goosedefi.gitbook.io/wakanda-inu//',
-  //     // },
-  //     {
-  //       label: 'Blog',
-  //       href: 'https://wakandainu.medium.com/',
-  //     },
-  //   ],
-  // },
+  {
+    label: 'Info',
+    icon: 'InfoIcon',
+    items: [
+      {
+        label: 'PancakeSwap',
+        href: 'https://pancakeswap.info/token/0x5344c20fd242545f31723689662ac12b9556fc3d',
+      },
+      {
+        label: 'CoinGecko',
+        href: 'https://www.coingecko.com/en/coins/wakanda-inu/',
+      },
+      {
+        label: 'CoinMarketCap',
+        href: 'https://coinmarketcap.com/currencies/wakanda-inu/',
+      },
+      {
+        label: 'AstroTools',
+        href: 'https://app.astrotools.io/pancake-pair-explorer/0x5344c20fd242545f31723689662ac12b9556fc3d',
+      },
+    ],
+  },
+  {
+    label: 'More',
+    icon: 'MoreIcon',
+    items: [
+      {
+        label: 'Github',
+        href: 'https://github.com/wakandaswap/',
+      },
+      // {
+      //   label: 'Docs',
+      //   href: 'https://goosedefi.gitbook.io/wakanda-inu//',
+      // },
+      {
+        label: 'Blog',
+        href: 'https://wakandainu.medium.com/',
+      },
+    ],
+  },
   // {
   //   label: 'Partnerships/IWO',
   //   icon: 'IfoIcon',
   //   href:
   //     'https://google.com',
   // },
-  // {
-  //   label: 'Audit by CertiK',
-  //   icon: 'ShieldIcon',
-  //   href: 'https://certik.org/projects/wakanda-inu/',
-  // },
+  {
+    label: 'Audit by CertiK',
+    icon: 'ShieldIcon',
+    href: 'https://certik.org/projects/wakanda-inu/',
+  },
 ]
 
 export default config

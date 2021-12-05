@@ -55,20 +55,20 @@ const ComingSoon = () => {
       <Content>
         <div>
           <Block>
-            <Title as="h2">{TranslateString(999, 'Coming Soon to PancakeSwap.')}</Title>
+            <Title as="h2">{TranslateString(999, 'Coming Soon to WakandaSwap.')}</Title>
             <Text mb={3}>
               {TranslateString(
                 504,
-                'You’ll pay for the new tokens using CAKE-BNB LP tokens, which means you need to stake equal amounts of CAKE and BNB in a liquidity pool to take part.',
+                'You’ll pay for the new tokens using WAKANDA-BNB LP tokens, which means you need to stake equal amounts of WAKANDA and BNB in a liquidity pool to take part.',
               )}
             </Text>
             <Text mb={3}>
-              <LiquidityLink href="https://exchange.pancakeswap.finance/#/add/ETH/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82">
-                {TranslateString(506, 'Get CAKE-BNB LP >')}
+              <LiquidityLink href="https://exchange.wakandaswap.net/#/add/ETH/0x5344c20fd242545f31723689662ac12b9556fc3d">
+                {TranslateString(506, 'Get WAKANDA-BNB LP >')}
               </LiquidityLink>
             </Text>
             <Text mb={3}>
-              {TranslateString(508, 'The project gets the BNB, PancakeSwap burns the CAKE.')}
+              {TranslateString(508, 'The project gets the BNB, WakandaSwap burns the WAKANDA.')}
               <br />
               <strong>{TranslateString(510, 'You get the tokens.')}</strong>
             </Text>
@@ -79,12 +79,13 @@ const ComingSoon = () => {
             <Text mb={3}>
               {TranslateString(
                 514,
-                'Launch your project with PancakeSwap, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
+                'Launch your project with WakandaSwap, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
               )}
             </Text>
             <Button
               as="a"
-              href="https://docs.google.com/forms/d/e/1FAIpQLScGdT5rrVMr4WOWr08pvcroSeuIOtEJf1sVdQGVdcAOqryigQ/viewform"
+              href="!#"
+              // href="https://docs.google.com/forms/d/e/1FAIpQLScGdT5rrVMr4WOWr08pvcroSeuIOtEJf1sVdQGVdcAOqryigQ/viewform"
               target="_blank"
               rel="noopener noreferrer"
             >

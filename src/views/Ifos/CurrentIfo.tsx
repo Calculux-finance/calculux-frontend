@@ -40,22 +40,22 @@ const Ifo = () => {
 
   return (
     <div>
-      <IfoCards isSingle>
+      {/* <IfoCards isSingle>
         <IfoCard ifo={activeIfo} />
-      </IfoCards>
+      </IfoCards> */}
       <LaunchIfoCallout>
         <div>
           <Title as="h2">{TranslateString(592, 'How to take part')}</Title>
           <Heading mb="16px">{TranslateString(594, 'Before Sale')}:</Heading>
           <List>
-            <li>{TranslateString(596, 'Buy CAKE and BNB tokens')}</li>
-            <li>{TranslateString(598, 'Get CAKE-BNB LP tokens by adding CAKE and BNB liquidity')}</li>
+            <li>{TranslateString(596, 'Buy WAKANDA and BNB tokens')}</li>
+            <li>{TranslateString(598, 'Get WAKANDA-BNB LP tokens by adding WAKANDA and BNB liquidity')}</li>
           </List>
           <Flex mb="16px">
-            <LinkExternal href="https://exchange.pancakeswap.finance/#/swap" mr="16px">
-              {TranslateString(999, 'Buy cake')}
+            <LinkExternal href="https://exchange.wakandaswap.net/#/swap" mr="16px">
+              {TranslateString(999, 'Buy wakanda')}
             </LinkExternal>
-            <LinkExternal href="https://exchange.pancakeswap.finance/#/add/ETH/0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82">
+            <LinkExternal href="https://exchange.wakandaswap.net/#/add/ETH/0x5344c20fd242545f31723689662ac12b9556fc3d">
               {TranslateString(999, 'Get LP tokens')}
             </LinkExternal>
           </Flex>
@@ -89,8 +89,9 @@ const Ifo = () => {
               )}
             </Text>
             <Button
+              href="!#"
               as="a"
-              href="https://docs.google.com/forms/d/e/1FAIpQLScGdT5rrVMr4WOWr08pvcroSeuIOtEJf1sVdQGVdcAOqryigQ/viewform"
+              // href="https://docs.google.com/forms/d/e/1FAIpQLScGdT5rrVMr4WOWr08pvcroSeuIOtEJf1sVdQGVdcAOqryigQ/viewform"
               external
             >
               {TranslateString(516, 'Apply to launch')}
