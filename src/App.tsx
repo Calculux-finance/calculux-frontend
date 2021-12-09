@@ -55,10 +55,10 @@ const App: React.FC = () => {
             {/*  <Pools /> */}
             {/* </Route> */}
             <Route path="/lottery">
-             <Lottery />
+              <Lottery />
             </Route>
             <Route path="/iwo">
-             <Ifos />
+              <Ifos />
             </Route>
             {/* <Route path="/nft"> */}
             {/*  <Nft /> */}
