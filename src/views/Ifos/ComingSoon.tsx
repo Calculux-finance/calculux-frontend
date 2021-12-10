@@ -63,7 +63,7 @@ const ComingSoon = () => {
               )}
             </Text>
             <Text mb={3}>
-              <LiquidityLink href="https://exchange.wakandaswap.net/#/add/ETH/0x5344c20fd242545f31723689662ac12b9556fc3d">
+              <LiquidityLink href="https://exchange.wakandaswap.finance/#/add/ETH/0x5344c20fd242545f31723689662ac12b9556fc3d">
                 {TranslateString(506, 'Get WAKANDA-BNB LP >')}
               </LiquidityLink>
             </Text>

@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.wakandaswap.net/',
+        href: 'https://exchange.wakandaswap.finance/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.wakandaswap.net/#/pool',
+        href: 'https://exchange.wakandaswap.finance/#/pool',
       },
     ],
   },

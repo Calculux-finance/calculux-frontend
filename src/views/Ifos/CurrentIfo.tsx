@@ -52,10 +52,10 @@ const Ifo = () => {
             <li>{TranslateString(598, 'Get WAKANDA-BNB LP tokens by adding WAKANDA and BNB liquidity')}</li>
           </List>
           <Flex mb="16px">
-            <LinkExternal href="https://exchange.wakandaswap.net/#/swap" mr="16px">
+            <LinkExternal href="https://exchange.wakandaswap.finance/#/swap" mr="16px">
               {TranslateString(999, 'Buy wakanda')}
             </LinkExternal>
-            <LinkExternal href="https://exchange.wakandaswap.net/#/add/ETH/0x5344c20fd242545f31723689662ac12b9556fc3d">
+            <LinkExternal href="https://exchange.wakandaswap.finance/#/add/ETH/0x5344c20fd242545f31723689662ac12b9556fc3d">
               {TranslateString(999, 'Get LP tokens')}
             </LinkExternal>
           </Flex>
