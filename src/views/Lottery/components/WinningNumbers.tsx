@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
-import { Image, Card, CardBody } from '@wakandaswap-libs/uikit'
+import { Card, CardBody } from '@wakandaswap-libs/uikit'
 import { useWinningNumbers, useMatchingRewardLength } from 'hooks/useTickets'
 import useI18n from 'hooks/useI18n'
 import useGetLotteryHasDrawn from 'hooks/useGetLotteryHasDrawn'
@@ -66,11 +66,11 @@ const WinningNumbers: React.FC = () => {
     </CardWrapper>
   )
 }
-const Link = styled.a`
-  margin-top: 1em;
-  text-decoration: none;
-  color: #25beca;
-`
+// const Link = styled.a`
+//   margin-top: 1em;
+//   text-decoration: none;
+//   color: #25beca;
+// `
 
 const Row = styled.div`
   margin-top: 1em;
@@ -79,40 +79,40 @@ const Row = styled.div`
   flex-direction: row;
 `
 
-const RabbitRow = styled.div`
-  margin-top: -2.3em;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
+// const RabbitRow = styled.div`
+//   margin-top: -2.3em;
+//   align-items: center;
+//   display: flex;
+//   flex-direction: row;
 
-  @media (max-width: 768px) {
-    display: none;
-  }
-`
+//   @media (max-width: 768px) {
+//     display: none;
+//   }
+// `
 
-const RabbitRowSmall = styled.div`
-  margin-top: -2.3em;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
+// const RabbitRowSmall = styled.div`
+//   margin-top: -2.3em;
+//   align-items: center;
+//   display: flex;
+//   flex-direction: row;
 
-  @media (min-width: 768px) {
-    display: none;
-  }
-`
+//   @media (min-width: 768px) {
+//     display: none;
+//   }
+// `
 
-const CardImage = styled.div`
-  text-align: center;
-`
+// const CardImage = styled.div`
+//   text-align: center;
+// `
 
-const CardImageFirst = styled.div`
-  text-align: center;
-  margin-left: -1.2em;
+// const CardImageFirst = styled.div`
+//   text-align: center;
+//   margin-left: -1.2em;
 
-  @media (max-width: 600) {
-    margin-left: -0.2em;
-  }
-`
+//   @media (max-width: 600) {
+//     margin-left: -0.2em;
+//   }
+// `
 
 const RowNoPadding = styled.div`
   align-items: center;
@@ -157,20 +157,20 @@ const TicketNumberBox = styled.div`
   }
 `
 
-const RabbitBox = styled.div`
-  /* padding: 10px; */
-  border-radius: 12px;
-  margin: 16px 20px;
-  width: 60px;
-`
+// const RabbitBox = styled.div`
+//   /* padding: 10px; */
+//   border-radius: 12px;
+//   margin: 16px 20px;
+//   width: 60px;
+// `
 
-const RabbitBoxSmall = styled.div`
-  padding-top: 10px;
-  padding-left: 10px;
-  border-radius: 12px;
-  margin: 20px;
-  width: 20px;
-`
+// const RabbitBoxSmall = styled.div`
+//   padding-top: 10px;
+//   padding-left: 10px;
+//   border-radius: 12px;
+//   margin: 20px;
+//   width: 20px;
+// `
 
 const StyledCardHeader = styled.div`
   align-items: center;

@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Text, Heading, BaseLayout, Button, LinkExternal, Flex, Image } from '@wakandaswap-libs/uikit'
-import { ifosConfig } from 'config/constants'
+// import { ifosConfig } from 'config/constants'
 import useI18n from 'hooks/useI18n'
-import IfoCard from './components/IfoCard'
+// import IfoCard from './components/IfoCard'
 import Title from './components/Title'
-import IfoCards from './components/IfoCards'
+// import IfoCards from './components/IfoCards'
 
 const LaunchIfoCallout = styled(BaseLayout)`
   border-top: 2px solid ${({ theme }) => theme.colors.textSubtle};
@@ -33,7 +33,7 @@ const List = styled.ul`
 /**
  * Note: currently there should be only 1 active IFO at a time
  */
-const activeIfo = ifosConfig.find((ifo) => ifo.isActive)
+// const activeIfo = ifosConfig.find((ifo) => ifo.isActive)
 
 const Ifo = () => {
   const TranslateString = useI18n()

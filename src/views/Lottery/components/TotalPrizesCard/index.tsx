@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import styled from 'styled-components'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
-import { Heading, Card, CardBody, CardFooter, Text, PancakeRoundIcon, Flex, Skeleton } from '@wakandaswap-libs/uikit'
+import { Heading, Card, CardBody, CardFooter, Text, Flex, Skeleton } from '@wakandaswap-libs/uikit'
 import { getBalanceNumber } from 'utils/formatBalance'
 import useI18n from 'hooks/useI18n'
 import { useTotalRewards } from 'hooks/useTickets'
@@ -27,13 +27,13 @@ const Left = styled.div`
   display: flex;
 `
 
-const IconWrapper = styled.div`
-  margin-right: 16px;
-  svg {
-    width: 48px;
-    height: 48px;
-  }
-`
+// const IconWrapper = styled.div`
+//   margin-right: 16px;
+//   svg {
+//     width: 48px;
+//     height: 48px;
+//   }
+// `
 
 const PrizeCountWrapper = styled.div`
   display: flex;

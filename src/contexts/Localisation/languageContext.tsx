@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { StringTranslations } from '@crowdin/crowdin-api-client'
+// import { StringTranslations } from '@crowdin/crowdin-api-client'
 import { TranslationsContext } from 'contexts/Localisation/translationsContext'
 import { allLanguages, EN } from 'config/localisation/languageCodes'
 
@@ -24,15 +24,15 @@ const LanguageContext = React.createContext({
   setTranslatedLanguage: () => undefined,
 } as LanguageState)
 
-const fileId = 8
-const projectId = parseInt(process.env.REACT_APP_CROWDIN_PROJECTID)
-const stringTranslationsApi = new StringTranslations({
-  token: process.env.REACT_APP_CROWDIN_APIKEY,
-})
+// const fileId = 8
+// const projectId = parseInt(process.env.REACT_APP_CROWDIN_PROJECTID)
+// const stringTranslationsApi = new StringTranslations({
+//   token: process.env.REACT_APP_CROWDIN_APIKEY,
+// })
 
-const fetchTranslationsForSelectedLanguage = (selectedLanguage) => {
-  return stringTranslationsApi.listLanguageTranslations(projectId, selectedLanguage.code, undefined, fileId, 200)
-}
+// const fetchTranslationsForSelectedLanguage = (selectedLanguage) => {
+//   return stringTranslationsApi.listLanguageTranslations(projectId, selectedLanguage.code, undefined, fileId, 200)
+// }
 
 const LanguageContextProvider = ({ children }) => {
   const [selectedLanguage, setSelectedLanguage] = useState<any>(EN)
@@ -57,7 +57,7 @@ const LanguageContextProvider = ({ children }) => {
 
   useEffect(() => {
     if (selectedLanguage) {
-      console.log(`import(\`../../../public/i18n/${selectedLanguage.code}.json\`)`)
+      // console.log(`import(\`../../../public/i18n/${selectedLanguage.code}.json\`)`)
       fetch(`./i18n/${selectedLanguage.code}.json`)
         .then((r) => r.json())
         // fetchTranslationsForSelectedLanguage(selectedLanguage)

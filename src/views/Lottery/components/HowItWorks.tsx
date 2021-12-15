@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, Heading, Link, Image } from '@wakandaswap-libs/uikit'
+import { Text, Heading, Link } from '@wakandaswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 
 const LayoutWrapper = styled.div`
@@ -14,9 +14,9 @@ const StyledHeading = styled(Heading)`
   margin: 16px 0;
 `
 
-const StyledImage = styled(Image)`
-  align-self: center;
-`
+// const StyledImage = styled(Image)`
+//   align-self: center;
+// `
 
 const StyledLink = styled(Link)`
   align-self: center;

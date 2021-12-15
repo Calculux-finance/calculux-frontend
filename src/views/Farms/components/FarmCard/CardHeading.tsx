@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Tag, Flex, Heading, Image } from '@wakandaswap-libs/uikit'
-import { CommunityTag, CoreTag, NoFeeTag, RiskTag } from 'components/Tags'
+import { NoFeeTag } from 'components/Tags'
 
 export interface ExpandableSectionProps {
   lpLabel?: string
