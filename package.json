@@ -33,6 +33,7 @@
     "@types/styled-components": "^5.1.7",
     "@wakandaswap-libs/uikit": "^0.1.2",
     "bignumber.js": "^9.0.0",
+    "browserslist": "^4.19.1",
     "chart.js": "^2.9.4",
     "iframe-resizer-react": "^1.1.0",
     "lodash": "^4.17.20",
