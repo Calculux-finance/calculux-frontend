@@ -3,16 +3,21 @@ import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { allLanguages } from 'config/localisation/languageCodes'
 import { LanguageContext } from 'contexts/Localisation/languageContext'
 import useTheme from 'hooks/useTheme'
-import { usePriceCakeBusd } from 'state/hooks'
+// import { usePriceCakeBusd } from 'state/hooks'
 import { Menu as UikitMenu } from '@wakandaswap-libs/uikit'
+import useGetPriceData from 'hooks/useGetPriceData'
 import config from './config'
 
 const Menu = (props) => {
   const { account, connect, reset } = useWallet()
   const { selectedLanguage, setSelectedLanguage } = useContext(LanguageContext)
   const { isDark, toggleTheme } = useTheme()
-  const cakePriceUsd = usePriceCakeBusd()
+  // const cakePriceUsd = usePriceCakeBusd()
+  const priceData = useGetPriceData()
 
+  const wakandaAddress = '0x5344c20fd242545f31723689662ac12b9556fc3d'
+  const cakePriceUsd = priceData && priceData.data && priceData.data[wakandaAddress] ? Number(priceData.data[wakandaAddress].price) : Number(0)
+  
   useEffect(() => {
     if (!isDark) {
       toggleTheme()
@@ -31,9 +36,9 @@ const Menu = (props) => {
       currentLang={selectedLanguage && selectedLanguage.code}
       langs={allLanguages}
       setLang={setSelectedLanguage}
-      cakePriceUsd={cakePriceUsd.toNumber()}
+      cakePriceUsd={cakePriceUsd}
+      cakePriceLink="https://www.coingecko.com/en/coins/wakanda-inu"
       links={config}
-      priceLink="https://www.coingecko.com/en/coins/wakanda-inu"
       {...props}
     />
   )
