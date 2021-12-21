@@ -50,8 +50,8 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x5344c20fd242545f31723689662ac12b9556fc3d',
+        label: 'WakandaSwap',
+        href: 'https://wakandaswap.info/token/0x5344c20fd242545f31723689662ac12b9556fc3d',
       },
       {
         label: 'CoinGecko',

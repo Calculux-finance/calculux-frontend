@@ -1,10 +1,10 @@
 import React from 'react'
 import { Text } from '@wakandaswap-libs/uikit'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
-import useTokenBalance from 'hooks/useTokenBalance'
+// import useTokenBalance from 'hooks/useTokenBalance'
 import useI18n from 'hooks/useI18n'
-import { getCakeAddress } from 'utils/addressHelpers'
-import { getBalanceNumber } from 'utils/formatBalance'
+// import { getCakeAddress } from 'utils/addressHelpers'
+// import { getBalanceNumber } from 'utils/formatBalance'
 import CardValue from './CardValue'
 
 const CakeWalletBalance = ({ cakeBalance }) => {

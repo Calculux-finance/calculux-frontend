@@ -23,7 +23,8 @@ export type DataResponse = {
 const getLotteryRoundData = async (lotteryNumber: number): Promise<DataResponse> => {
   try {
     const response = await fetch(`https://api.pancakeswap.com/api/singleLottery?lotteryNumber=${lotteryNumber}`)
-    const data = await response.json()
+    const data = response.json()
+    // const data = await response.json()
 
     return data
   } catch (error) {

@@ -72,7 +72,7 @@ const FarmedStakingCard = () => {
         <CardImage src="/images/egg/ticketround.png" alt="wakanda logo" width={64} height={64} />
         <Block>
           <CakeWinnings />
-          <Label>{TranslateString(552, 'WAKANDA to Collect')}</Label>
+          <Label>{TranslateString(552, 'WKD to Collect')}</Label>
         </Block>
         <Block>
           <LotteryJackpot />

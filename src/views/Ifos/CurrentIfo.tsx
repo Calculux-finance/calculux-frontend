@@ -48,12 +48,12 @@ const Ifo = () => {
           <Title as="h2">{TranslateString(592, 'How to take part')}</Title>
           <Heading mb="16px">{TranslateString(594, 'Before Sale')}:</Heading>
           <List>
-            <li>{TranslateString(596, 'Buy WAKANDA and BNB tokens')}</li>
-            <li>{TranslateString(598, 'Get WAKANDA-BNB LP tokens by adding WAKANDA and BNB liquidity')}</li>
+            <li>{TranslateString(596, 'Buy WKD and BNB tokens')}</li>
+            <li>{TranslateString(598, 'Get WKD-BNB LP tokens by adding WKD and BNB liquidity')}</li>
           </List>
           <Flex mb="16px">
             <LinkExternal href="https://exchange.wakandaswap.finance/#/swap" mr="16px">
-              {TranslateString(999, 'Buy wakanda')}
+              {TranslateString(999, 'Buy Wkd')}
             </LinkExternal>
             <LinkExternal href="https://exchange.wakandaswap.finance/#/add/ETH/0x5344c20fd242545f31723689662ac12b9556fc3d">
               {TranslateString(999, 'Get LP tokens')}
@@ -61,7 +61,7 @@ const Ifo = () => {
           </Flex>
           <Heading mb="16px">{TranslateString(600, 'During Sale')}:</Heading>
           <List>
-            <li>{TranslateString(602, 'While the sale is live, commit your CAKE-LP tokens to buy the IFO tokens')}</li>
+            <li>{TranslateString(602, 'While the sale is live, commit your WAKANDA-LP tokens to buy the IWO tokens')}</li>
           </List>
           <Heading mb="16px">{TranslateString(604, 'After Sale')}:</Heading>
           <List>
@@ -72,7 +72,7 @@ const Ifo = () => {
             <Button
               as="a"
               variant="secondary"
-              href="https://docs.pancakeswap.finance/core-products/ifo-initial-farm-offering"
+              href="https://docs.wakandaswap.finance/core-products/ifo-initial-farm-offering"
             >
               {TranslateString(610, 'Read more')}
             </Button>
@@ -81,11 +81,11 @@ const Ifo = () => {
         <div>
           <Image src="/images/ifo-bunny.svg" alt="ifo bunny" width={436} height={406} responsive />
           <div>
-            <Title as="h2">{TranslateString(512, 'Want to launch your own IFO?')}</Title>
+            <Title as="h2">{TranslateString(512, 'Want to launch your own IWO?')}</Title>
             <Text mb={3}>
               {TranslateString(
                 514,
-                'Launch your project with PancakeSwap, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
+                'Launch your project with WakandaSwap, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
               )}
             </Text>
             <Button
