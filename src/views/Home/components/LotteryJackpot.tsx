@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text } from '@wakandaswap-libs/uikit'
+import { Text } from '@calculux-libs/uikit'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useTotalRewards } from 'hooks/useTickets'
 

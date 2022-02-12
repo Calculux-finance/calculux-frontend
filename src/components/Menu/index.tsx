@@ -4,7 +4,7 @@ import { allLanguages } from 'config/localisation/languageCodes'
 import { LanguageContext } from 'contexts/Localisation/languageContext'
 import useTheme from 'hooks/useTheme'
 // import { usePriceCakeBusd } from 'state/hooks'
-import { Menu as UikitMenu } from '@wakandaswap-libs/uikit'
+import { Menu as UikitMenu } from '@calculux-libs/uikit'
 import useGetPriceData from 'hooks/useGetPriceData'
 import config from './config'
 
@@ -16,8 +16,11 @@ const Menu = (props) => {
   const priceData = useGetPriceData()
 
   const wakandaAddress = '0x5344C20FD242545F31723689662AC12b9556fC3d'
-  const cakePriceUsd = priceData && priceData.data && priceData.data[wakandaAddress] ? Number(priceData.data[wakandaAddress].price) : Number(0)
-  
+  const cakePriceUsd =
+    priceData && priceData.data && priceData.data[wakandaAddress]
+      ? Number(priceData.data[wakandaAddress].price)
+      : Number(0)
+
   useEffect(() => {
     if (!isDark) {
       toggleTheme()

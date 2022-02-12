@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Card, CardBody } from '@wakandaswap-libs/uikit'
+import { Card, CardBody } from '@calculux-libs/uikit'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useTotalClaim } from 'hooks/useTickets'
 import PrizesWonContent from './PrizesWonContent'

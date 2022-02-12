@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, Flex } from '@wakandaswap-libs/uikit'
+import { Heading, Text, Flex } from '@calculux-libs/uikit'
 
 interface IfoCardHeaderProps {
   ifoId: string

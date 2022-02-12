@@ -1,7 +1,7 @@
 import React from 'react'
 import useI18n from 'hooks/useI18n'
 import styled from 'styled-components'
-import { Text, Flex, Link, LinkExternal } from '@wakandaswap-libs/uikit'
+import { Text, Flex, Link, LinkExternal } from '@calculux-libs/uikit'
 import getLiquidityUrlPathParts from 'utils/getLiquidityUrlPathParts'
 import { Address } from 'config/constants/types'
 
@@ -52,12 +52,13 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
     <Wrapper>
       <Flex justifyContent="space-between">
         <Text>{TranslateString(316, 'Stake')}:</Text>
-        <StyledLinkExternal href={
-          isTokenOnly ?
-            `https://exchange.goosedefi.com/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
-            :
-          `https://exchange.goosedefi.com/#/add/${liquidityUrlPathParts}`
-        }>
+        <StyledLinkExternal
+          href={
+            isTokenOnly
+              ? `https://exchange.goosedefi.com/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+              : `https://exchange.goosedefi.com/#/add/${liquidityUrlPathParts}`
+          }
+        >
           {lpLabel}
         </StyledLinkExternal>
       </Flex>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { Text } from '@wakandaswap-libs/uikit'
+import { Text } from '@calculux-libs/uikit'
 import useI18n from 'hooks/useI18n'
 
 export interface IfoCardDescriptionProps {

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { BaseLayout } from '@wakandaswap-libs/uikit'
+import { BaseLayout } from '@calculux-libs/uikit'
 import PastLotteryRoundViewer from './components/PastLotteryRoundViewer'
 import PastDrawsHistoryCard from './components/PastDrawsHistory/PastDrawsHistoryCard'
 

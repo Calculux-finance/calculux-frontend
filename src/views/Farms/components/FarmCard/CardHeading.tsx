@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Tag, Flex, Heading, Image } from '@wakandaswap-libs/uikit'
+import { Tag, Flex, Heading, Image } from '@calculux-libs/uikit'
 import { NoFeeTag } from 'components/Tags'
 
 export interface ExpandableSectionProps {

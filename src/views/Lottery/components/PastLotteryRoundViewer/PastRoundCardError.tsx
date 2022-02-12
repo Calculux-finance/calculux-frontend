@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text } from '@wakandaswap-libs/uikit'
+import { Text } from '@calculux-libs/uikit'
 
 interface PastRoundCardErrorProps {
   error: {

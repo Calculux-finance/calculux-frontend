@@ -1,10 +1,10 @@
 import { createGlobalStyle } from 'styled-components'
 // eslint-disable-next-line import/no-unresolved
-import { WakandaTheme } from '@wakandaswap-libs/uikit'
+import { CalculuxTheme } from '@calculux-libs/uikit'
 
 declare module 'styled-components' {
   /* eslint-disable @typescript-eslint/no-empty-interface */
-  export interface DefaultTheme extends WakandaTheme {}
+  export interface DefaultTheme extends CalculuxTheme {}
 }
 
 const GlobalStyle = createGlobalStyle`

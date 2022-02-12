@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
-import { Heading, Card, CardBody, Button } from '@wakandaswap-libs/uikit'
+import { Heading, Card, CardBody, Button } from '@calculux-libs/uikit'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import BigNumber from 'bignumber.js'
 import useI18n from 'hooks/useI18n'
@@ -74,7 +74,7 @@ const FarmedStakingCard = () => {
         <CardImage src="/images/egg/2.png" alt="cake logo" width={64} height={64} />
         <Block>
           <Label>{TranslateString(544, 'EGG to Harvest')}</Label>
-          <CakeHarvestBalance earningsSum={earningsSum}/>
+          <CakeHarvestBalance earningsSum={earningsSum} />
           <Label>~${(eggPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>

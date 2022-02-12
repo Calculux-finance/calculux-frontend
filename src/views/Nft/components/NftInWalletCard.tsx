@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardBody, Heading, Text } from '@wakandaswap-libs/uikit'
+import { Card, CardBody, Heading, Text } from '@calculux-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import CardContent from './CardContent'
 

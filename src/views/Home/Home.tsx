@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, BaseLayout } from '@wakandaswap-libs/uikit'
+import { Heading, Text, BaseLayout } from '@calculux-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 // import FarmStakingCard from './components/FarmStakingCard'
@@ -60,7 +60,7 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Wakanda Swap Finance')}
+          {TranslateString(576, 'Calculux Finance')}
         </Heading>
         <Text>{TranslateString(578, 'Number one DEFI app on Binance Smart Chain.')}</Text>
       </Hero>

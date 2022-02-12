@@ -1169,6 +1169,17 @@
     "@web3-react/walletlink-connector" "^6.1.1"
     jsbi "^3.1.1"
 
+"@calculux-libs/uikit@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@calculux-libs/uikit/-/uikit-0.1.5.tgz#b6e086782ce0abb36397e9e0753634f2a43f4ed9"
+  integrity sha512-p9YNmBnPheHoohEsvLJjZaPxBRL/ODYnV90YrPrIIeQEx38I7pbhsaox6WnXFM00PZQQErBct4dDxtfDn2mIIA==
+  dependencies:
+    "@types/lodash" "^4.14.162"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
+
 "@chaitanyapotti/random-id@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@chaitanyapotti/random-id/-/random-id-1.0.3.tgz#f52f647cfe9f79fc7723ea2b01b0ad3889204002"
@@ -2635,17 +2646,6 @@
   dependencies:
     "@typescript-eslint/types" "4.12.0"
     eslint-visitor-keys "^2.0.0"
-
-"@wakandaswap-libs/uikit@^0.1.2":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@wakandaswap-libs/uikit/-/uikit-0.1.3.tgz#d6f5a9632f3266e0f749f9c03e39199063ff8f8f"
-  integrity sha512-K1qTZ0yi4KhrlO8xUQonoZsSROlB6LXTlgHfOmcE3eFDUHYiB68Jp6tM4tBvH2IfMFBQ/9fz3QS69NdXop9t7Q==
-  dependencies:
-    "@types/lodash" "^4.14.162"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
 
 "@walletconnect/client@^1.3.3":
   version "1.3.3"

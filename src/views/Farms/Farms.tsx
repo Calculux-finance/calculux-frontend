@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 // import BigNumber from 'bignumber.js'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { provider } from 'web3-core'
-import { Image, Heading } from '@wakandaswap-libs/uikit'
+import { Image, Heading } from '@calculux-libs/uikit'
 // import { BLOCKS_PER_YEAR } from 'config'
 import FlexLayout from 'components/layout/Flex'
 import Page from 'components/layout/Page'
@@ -17,7 +17,7 @@ import useI18n from 'hooks/useI18n'
 import FarmTabButtons from './components/FarmTabButtons'
 import Divider from './components/Divider'
 
-export interface FarmsProps{
+export interface FarmsProps {
   tokenMode?: boolean
 }
 
@@ -28,7 +28,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
   // const cakePrice = usePriceCakeBusd()
   // const bnbPrice = usePriceBnbBusd()
   const { account }: { account: string; ethereum: provider } = useWallet()
-  const {tokenMode} = farmsProps;
+  const { tokenMode } = farmsProps
 
   const dispatch = useDispatch()
   const { fastRefresh } = useRefresh()
@@ -92,17 +92,12 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
   return (
     <Page>
       <Heading as="h1" size="lg" color="primary" mb="50px" style={{ textAlign: 'center' }}>
-        {
-          tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn')
-            :
-          TranslateString(320, 'Stake LP tokens to earn')
-        }
+        {tokenMode ? TranslateString(10002, 'Stake tokens to earn') : TranslateString(320, 'Stake LP tokens to earn')}
       </Heading>
       <Heading as="h2" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         {/* {TranslateString(10000, 'Deposit Fee will be used to buyback ...')} */}
       </Heading>
-      <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly}/>
+      <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>
         <Divider />
         <FlexLayout>
