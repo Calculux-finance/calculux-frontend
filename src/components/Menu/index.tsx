@@ -40,7 +40,7 @@ const Menu = (props) => {
       langs={allLanguages}
       setLang={setSelectedLanguage}
       cakePriceUsd={cakePriceUsd}
-      cakePriceLink="https://www.coingecko.com/en/coins/wakanda-inu"
+      cakePriceLink="#"
       links={config}
       {...props}
     />
