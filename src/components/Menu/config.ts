@@ -36,7 +36,7 @@ const config: MenuEntry[] = [
     href: '/lottery',
   },
   {
-    label: 'IWO',
+    label: 'IDO',
     icon: 'PoolIcon',
     href: '/iwo',
   },
