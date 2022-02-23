@@ -48,22 +48,20 @@ const Ifo = () => {
           <Title as="h2">{TranslateString(592, 'How to take part')}</Title>
           <Heading mb="16px">{TranslateString(594, 'Before Sale')}:</Heading>
           <List>
-            <li>{TranslateString(596, 'Buy WKD and BNB tokens')}</li>
-            <li>{TranslateString(598, 'Get WKD-BNB LP tokens by adding WKD and BNB liquidity')}</li>
+            <li>{TranslateString(596, 'Buy CAX and BNB tokens')}</li>
+            <li>{TranslateString(598, 'Get CAX-BNB LP tokens by adding CAX and BNB liquidity')}</li>
           </List>
           <Flex mb="16px">
-            <LinkExternal href="https://exchange.wakandaswap.finance/#/swap" mr="16px">
-              {TranslateString(999, 'Buy Wkd')}
+            <LinkExternal href="https://dex.calculux.finance/#/swap" mr="16px">
+              {TranslateString(999, 'Buy Cax')}
             </LinkExternal>
-            <LinkExternal href="https://exchange.wakandaswap.finance/#/add/ETH/0x5344c20fd242545f31723689662ac12b9556fc3d">
+            <LinkExternal href="https://dex.calculux.finance/#/add/ETH/0x587B178d0306586EfcF3D3aFA7A6953FAb150AfF">
               {TranslateString(999, 'Get LP tokens')}
             </LinkExternal>
           </Flex>
           <Heading mb="16px">{TranslateString(600, 'During Sale')}:</Heading>
           <List>
-            <li>
-              {TranslateString(602, 'While the sale is live, commit your WAKANDA-LP tokens to buy the IWO tokens')}
-            </li>
+            <li>{TranslateString(602, 'While the sale is live, commit your CAX-LP tokens to buy the IWO tokens')}</li>
           </List>
           <Heading mb="16px">{TranslateString(604, 'After Sale')}:</Heading>
           <List>
@@ -71,11 +69,7 @@ const Ifo = () => {
             <li>{TranslateString(608, 'Done!')}</li>
           </List>
           <Text as="div" pt="16px">
-            <Button
-              as="a"
-              variant="secondary"
-              href="https://docs.wakandaswap.finance/core-products/ifo-initial-farm-offering"
-            >
+            <Button as="a" variant="secondary" href="https://calcdevs.gitbook.io/calculux-finance-v.01/">
               {TranslateString(610, 'Read more')}
             </Button>
           </Text>
@@ -87,7 +81,7 @@ const Ifo = () => {
             <Text mb={3}>
               {TranslateString(
                 514,
-                'Launch your project with WakandaSwap, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
+                'Launch your project with Calculux Finance, Binance Smart Chain’s most-used AMM project and liquidity provider, to bring your token directly to the most active and rapidly growing community on BSC.',
               )}
             </Text>
             <Button
