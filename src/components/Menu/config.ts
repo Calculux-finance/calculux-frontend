@@ -94,6 +94,11 @@ const config: MenuEntry[] = [
   //     'https://google.com',
   // },
   {
+    label: 'Audit by Coinscope',
+    icon: 'ShieldIcon',
+    href: 'https://www.coinscope.co/coin/cax/audit',
+  },
+  {
     label: 'Audit by CertiK',
     icon: 'ShieldIcon',
     href: '#',
