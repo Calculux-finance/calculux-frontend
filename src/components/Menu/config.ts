@@ -33,12 +33,14 @@ const config: MenuEntry[] = [
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: '/lottery',
+    // href: '/lottery',
+    href: '#',
   },
   {
     label: 'IDO',
     icon: 'PoolIcon',
-    href: '/ido',
+    // href: '/ido',
+    href: '#',
   },
   // {
   //   label: 'NFT',
