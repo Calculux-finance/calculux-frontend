@@ -38,7 +38,7 @@ const config: MenuEntry[] = [
   {
     label: 'IDO',
     icon: 'PoolIcon',
-    href: '/iwo',
+    href: '/ido',
   },
   // {
   //   label: 'NFT',
@@ -86,7 +86,7 @@ const config: MenuEntry[] = [
     ],
   },
   // {
-  //   label: 'Partnerships/IWO',
+  //   label: 'Partnerships/IDO',
   //   icon: 'IfoIcon',
   //   href:
   //     'https://google.com',
